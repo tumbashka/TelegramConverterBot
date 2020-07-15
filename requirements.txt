@@ -1,0 +1,6 @@
+certifi==2020.6.20
+pyTelegramBotAPI==3.7.2
+requests==2.24.0
+telebot==0.0.3
+urllib3==1.25.9
+xmltodict==0.12.0
