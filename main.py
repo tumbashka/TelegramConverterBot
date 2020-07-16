@@ -107,7 +107,7 @@ def get_valutes(message):
     for item in data['ValCurs']['Valute']:
         country_dict["/" + item['CharCode']] = [item['Value'].replace(",", "."), item['Nominal']]
 
-    country_dict["/RUB"] = 1
+    country_dict["/RUB"] = [1,1]
 
     country_list = list(country_dict.keys())
     country_list.sort()
